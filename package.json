@@ -16,6 +16,7 @@
     "@angular/forms": "^20.0.0",
     "@angular/platform-browser": "^20.0.0",
     "@angular/router": "^20.0.0",
+    "@esbuild/win32-x64": "^0.27.0",
     "@tsparticles/all": "^3.9.1",
     "@tsparticles/angular": "^3.0.0",
     "@tsparticles/engine": "^3.9.1",
