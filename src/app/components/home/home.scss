@@ -1,0 +1,79 @@
+:host {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: black;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.top {
+  z-index: 2;
+  position: relative;
+
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+}
+
+.content {
+  z-index: 2;
+  position: relative;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.text {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+ngx-particles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.indice {
+  position: fixed; // fix it to the viewport
+  bottom: 20px; // distance from the bottom
+  left: 50%; // center horizontally
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 100; // make sure it’s above other content
+}
+
+h3 {
+  color: white;
+}

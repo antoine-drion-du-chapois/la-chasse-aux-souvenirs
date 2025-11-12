@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="top">
+    <h1>𖦹 La chasse à Toinou 𖦹</h1>
+  </div>
+
+  <div class="content" *ngIf="!finished">
+    <p class="text">{{ questions[currentIndex].question }}</p>
+
+    <div class="form">
+      <input [(ngModel)]="userAnswer" type="text" placeholder="Réponse..." />
+
+      <button (click)="checkAnswer()">Envoyer</button>
+    </div>
+
+    <div class="indice">
+      <h3 *ngIf="indice">Réponse : {{ questions[currentIndex].answer }}</h3>
+      <button (click)="showIndice()">Montrer la réponse</button>
+    </div>
+  </div>
+</div>
