@@ -20,31 +20,48 @@ export class Home implements OnInit {
   questions: any[] = [
     {
       question: "L'endroit où on s'est rencontrés pour la première fois",
-      answer: '1',
+      answer: 'réception',
     },
     {
       question: 'Le nom de la princesse dans le film de Miyazaki',
-      answer: '1',
+      answer: 'momonoké',
+    },
+    {
+      question: 'Mon animal totem',
+      answer: 'dik-dik',
     },
     {
       question: 'Le numéro de ma chambre',
-      answer: '1',
+      answer: '106',
+    },
+    {
+      question: "Trouve le code caché dans l'ascenceur",
+      answer: '2580',
+    },
+    {
+      question: "Trouve l'animal caché dans la tv room",
+      answer: 'kangourou',
     },
     {
       question: 'Le nom du magasin où on a pris un café dégue',
-      answer: '1',
+      answer: 'machi machi',
     },
     {
-      question: 'Le numéro au dessus de ',
-      answer: '1',
+      question: 'Le nombre de machine à sous dans le magasin de gacha',
+      answer: '99',
     },
     {
-      question: 'Le highscore au jeux de basket (la machine la plus à droite)',
-      answer: '1',
+      question: 'Le highscore au jeux de basket toutes machines confondues',
+      answer: '999',
+    },
+    {
+      question:
+        'Trouve le code dans le livre sur le realisteur connu pour sa symétrie',
+      answer: 'XYZ123',
     },
     {
       question: 'Dernière question : le meilleur hostel du monde',
-      answer: '1',
+      answer: 'summerhouse',
     },
   ];
 

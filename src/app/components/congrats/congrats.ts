@@ -20,7 +20,6 @@ export class Congrats implements OnInit {
 
   ngOnInit(): void {
     this.ngParticlesService.init(async (engine: Engine) => {
-      console.log(engine);
       await loadAll(engine);
     });
   }

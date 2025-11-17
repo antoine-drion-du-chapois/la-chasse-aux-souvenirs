@@ -5,5 +5,6 @@ import { Landing } from './landing/landing';
 
 export const routes: Routes = [
   { path: '', component: Landing },
+  { path: 'home', component: Home },
   { path: 'congrats', component: Congrats },
 ];
